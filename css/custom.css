@@ -1,0 +1,158 @@
+/* overrides */ 
+
+.features-circle { 
+  /*background-color: #f26b66;*/
+  background-color:  #0072bb; 
+  border: 6px solid  #e49b0f;
+}
+
+.features-item:hover .features-circle {
+  background-color:  #00a86b;
+  border-color:  #1560bd;
+}
+
+.logo span:first-child {
+  color: rgb(240, 240, 240);
+  margin: 0 -12px 0 -14px;
+}
+
+.logo {
+  color: rgb(253, 232, 230);
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+.site-header { 
+  border-top: 5px solid  #6699bb;
+  background-color: #000000;
+  text-shadow: none;
+  color: black;
+}
+
+.section-signup {
+  background-color: #0072bb;
+}
+
+.site-header .logo { 
+  background-color: rgba(0, 0, 90, 0.1);
+}
+
+
+.signup-form .btn-side {
+  text-decoration: none;
+}
+
+.signup-form .btn-side:hover {
+  border-color: rgb(236,234,213);
+  color: rgb(92,0,50);
+  background-color: rgb(236,234,213);
+}
+
+/* end color overrides */
+
+.row { max-width: 850px; }
+
+header { position: relative; }
+header .row { z-index: 2; position: relative; }
+.section-signup, .signup-subtitle { color: white; }
+.section-signup a { color: white; text-decoration: underline; }
+
+.subheader { text-align: center; color: white; text-transform: uppercase; }
+.open-knowledge-foundation, .dat { width: 150px; float: right; }
+.dat { margin-right: 35px; position: relative; top: 20px; }
+
+.logo { font-family: 'Droid Sans Mono';}
+
+.site-header {
+  background-position: 52% -150px;
+  background-image: url("../img/morro.jpg");
+}
+
+#subheadline{
+  opacity: 0.5;
+}
+
+#subheadline, #subheadline a {
+  color: rgb(0,0,0);
+  background-color: rgba(233, 230, 208, 1);
+
+}
+
+#subheadline a {
+  text-decoration: underline;
+}
+
+.header-intro-wrap {
+  padding-bottom: 110px;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.header-intro-wrap p {
+  font-size: 28px;
+  background-color:  #89cff0;
+  /*background-color:  #89cff0;*/
+}
+
+.btn-docs {
+  background: #a61300;
+  border-color: #a61300;
+}
+
+.footer-info a {
+  text-decoration: underline;
+  color: white;
+}
+
+
+.footer-info {
+  color: white;
+}
+
+.site-footer {
+  background-color: #ffffff;
+}
+
+#whatweuse .two, #whatweuse h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 468px) {
+  .logo {
+    font-size: 50px;
+  }
+  .btn-docs {
+    border-color: #a61300;
+  }
+  .site-header {
+  }
+  .header-intro-wrap p {
+    margin-top: 24px;
+  }
+  .header-signup {
+  }
+  .header-intro-wrap .hs-disclaimer {
+    margin-top:50px;
+  }
+  .header-intro-wrap {
+    padding-bottom: 50px;
+  }
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 53.6%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.open-data-node {
+	float: right;
+}
