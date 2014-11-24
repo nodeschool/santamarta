@@ -1,0 +1,13 @@
+{
+  "name": "dibujapp",
+  "version": "0.0.1",
+	"author" : "Genesis Guerrero Martinez",
+	"description" : "Aplicacion realtime usando socketio",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.10.3",
+    "socket.io": "^1.2.1"
+  }
+}
