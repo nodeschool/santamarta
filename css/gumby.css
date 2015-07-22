@@ -9300,12 +9300,12 @@ input::-moz-focus-inner {
 * Sign-Up Section
 *****************************************************/
 .section-signup {
-  background-color: #20b24b;
+  background-color: #F7FE2E;
   text-align: center;
 }
 
 .signup-title {
-  color: #fff;
+  color: #000;
   font-weight: 300;
   font-size: 45px;
 }

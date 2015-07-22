@@ -1,14 +1,14 @@
 /* overrides */ 
 
 .features-circle { 
-  /*background-color: #f26b66;*/
-  background-color:  #0072bb; 
-  border: 6px solid  #e49b0f;
+  /*#0072bb*/
+  background-color:   #33383B; 
+  border: 6px solid  #E6DB4C;
 }
 
 .features-item:hover .features-circle {
-  background-color:  #00a86b;
-  border-color:  #1560bd;
+  background-color:  #E6DB4C;
+  border-color:  #33383B;
 }
 
 .logo span:first-child {
@@ -19,7 +19,7 @@
 .logo {
   color: rgb(253, 232, 230);
   white-space: nowrap;
-  opacity: 0.9;
+  opacity: 10.0;
 }
 
 .site-header { 
@@ -29,8 +29,9 @@
   color: black;
 }
 
+/*#0072bb*/
 .section-signup {
-  background-color: #0072bb;
+  background-color:  #E6DB4C;
 }
 
 .site-header .logo { 
@@ -54,10 +55,10 @@
 
 header { position: relative; }
 header .row { z-index: 2; position: relative; }
-.section-signup, .signup-subtitle { color: white; }
-.section-signup a { color: white; text-decoration: underline; }
+.section-signup, .signup-subtitle { color: black; }
+.section-signup a { color: black; text-decoration: underline; }
 
-.subheader { text-align: center; color: white; text-transform: uppercase; }
+.subheader { text-align: center; color: black; text-transform: uppercase; }
 .open-knowledge-foundation, .dat { width: 150px; float: right; }
 .dat { margin-right: 35px; position: relative; top: 20px; }
 
@@ -65,11 +66,11 @@ header .row { z-index: 2; position: relative; }
 
 .site-header {
   background-position: 52% -150px;
-  background-image: url("../img/morro.jpg");
+  background-image: url("../img/nodebots.png");
 }
 
 #subheadline{
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #subheadline, #subheadline a {
